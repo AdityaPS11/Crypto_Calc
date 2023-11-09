@@ -303,7 +303,7 @@ const Calc = () => {
                 The tax you need to pay*
               </p>
               <div className="relative w-fit [font-family:'Inter-Bold',Helvetica] text-[#0141cf] font-bold text-primarydarkblue text-[24px] text-center tracking-[0] leading-[normal]">
-                $ {getTaxRate(selectedIncome, netCapitalGains)}
+                $ {selectedButton === "long" || selectedButton === "short" ? getTaxRate(selectedIncome, netCapitalGains) : 0}
               </div>
             </div>
           </div>
