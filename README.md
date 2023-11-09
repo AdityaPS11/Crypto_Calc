@@ -32,7 +32,6 @@ Welcome to the Crypto Tax Calculator, a free and user-friendly tool designed for
 
 To run the project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
 2. Install dependencies: `npm install`
 3. Run the application: `npm start`
 
