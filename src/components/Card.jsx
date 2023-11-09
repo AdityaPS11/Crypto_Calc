@@ -1,7 +1,9 @@
+
+
 const frame = "/Frame.svg"
 const Card = () => {
     return (
-        <div className="bg-[#0052FE] flex flex-col w-[326px] h-[576px] items-center gap-[35px] py-[55px]  px-[16px]relative rounded-[8px] mt-8 ml-[15%]">
+        <div className="bg-[#0052FE] flex flex-col w-[326px] h-[576px] items-center gap-[35px] py-[55px]  px-[16px]relative rounded-[8px] mt-8 ml-[73%]">
             <div className=" flex-col h-[182px] gap-[14px] inline-flex items-center relative">
                 <p className="relative w-[268px] mt-[-1.00px] [font-family:'Inter-Bold',Helvetica] font-bold text-white text-[24px] text-center tracking-[0] leading-[40px]">
                     Get Started with KoinX for FREE

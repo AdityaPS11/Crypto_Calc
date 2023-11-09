@@ -1,4 +1,5 @@
 // Calc.jsx
+import Card from "./Card";
 import { useState, useEffect } from "react";
 
 const Calc = () => {
@@ -67,7 +68,9 @@ const Calc = () => {
 
   return (
     <>
-      <div className="mt-8 ml-5 max-w-[70%]">
+      <Card className="ml-[72%]"/>
+      <div className=" mt-[-46.7%] ml-5 max-w-[70%]">
+       
         <div className="bg-white pl-[79px] pr-[73px] pt-[35px] p-8 rounded-lg shadow-lg">
           <h2 className="text-gray-800 text-3xl font-semibold [font-family:'Inter-Bold',Helvetica] text-center mb-[40px]">
             Free Crypto Tax Calculator for Australia
